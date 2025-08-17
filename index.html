@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TueAn – Giữ mãi khoảnh khắc yêu thương</title>
+    <meta name="description" content="TueAn - Lưu giữ khoảnh khắc yêu thương qua đèn lưu giữ hoa cưới. Quy trình tỉ mỉ, sản phẩm tinh tế. Liên hệ ngay để được tư vấn.">
+    <style>
+        :root {
+            --bg: #fdfaf6;
+            --primary: #c19a6b;
+            --primary-2: #8b6f47;
+            --surface: #f8f1e9;
+            --border: #e4d5c7;
+            --text: #3a3a3a;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--surface);
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            margin: 0;
+            color: var(--primary);
+            letter-spacing: 0.3px;
+        }
+        header p {
+            font-size: clamp(1rem, 2.2vw, 1.25rem);
+            color: var(--primary-2);
+            margin: 8px 0 0 0;
+        }
+        .anh-trang-chu {
+            text-align: center;
+            margin: 20px auto 0;
+        }
+        .anh-trang-chu img {
+            width: 400px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+            border: 2px solid var(--border);
+        }
+        section {
+            max-width: 980px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+            margin-top: 0;
+            letter-spacing: 0.2px;
+        }
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .step {
+            background-color: #fff;
+            border: 1px solid var(--border);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .step:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            border: 2px solid var(--border);
+        }
+        .cta {
+            text-align: center;
+        }
+        .cta p {
+            margin-bottom: 12px;
+        }
+        a.button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 999px;
+            text-decoration: none;
+            margin: 6px;
+            transition: filter 0.2s ease, transform 0.05s ease;
+            border: 1px solid #b18758;
+        }
+        a.button:hover { filter: brightness(0.95); }
+        a.button:active { transform: translateY(1px); }
+        footer {
+            background-color: var(--surface);
+            text-align: center;
+            padding: 22px;
+            font-size: 0.95em;
+            color: var(--primary-2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TueAn</h1>
+    <p>Giữ mãi khoảnh khắc yêu thương</p>
+    <div class="anh-trang-chu">
+        <img src="denhoacuoi.jpg" alt="Đèn lưu giữ hoa cưới">
+    </div>
+</header>
+
+<section>
+    <h2>Về chúng tôi</h2>
+    <p>
+        TueAn ra đời từ niềm đam mê decor và mong muốn biến những khoảnh khắc hạnh phúc thành kỷ vật vĩnh cửu.
+        Chúng tôi không chỉ tạo nên những không gian sự kiện sang trọng, tinh tế mà còn giúp bạn lưu giữ nét đẹp
+        của ngày trọng đại qua đèn lưu giữ hoa cưới – sản phẩm kết hợp giữa nghệ thuật sắp đặt hoa và kỹ thuật bảo quản hiện đại.
+    </p>
+    <p>
+        Mỗi bông hoa được lựa chọn, xử lý và thiết kế tỉ mỉ để trở thành một tác phẩm ý nghĩa – vừa là điểm nhấn trang trí,
+        vừa là chiếc hộp ký ức cho những ai muốn giữ mãi dư âm của ngày cưới.
+    </p>
+</section>
+
+<section>
+    <h2>Quy trình</h2>
+    <div class="steps">
+        <div class="step">
+            <h3>Giữ</h3>
+            <p>Tiếp nhận và xử lý hoa</p>
+        </div>
+        <div class="step">
+            <h3>Biến hoá</h3>
+            <p>Sấy khô, thiết kế</p>
+        </div>
+        <div class="step">
+            <h3>Toả sáng</h3>
+            <p>Hoàn thiện thành chiếc đèn lưu giữ khoảnh khắc yêu thương</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Sản phẩm đã hoàn thiện</h2>
+    <div class="gallery">
+        <img src="z6915709612083_19abe15d6b13a0007568296217639cfa.jpg" alt="Mẫu đèn 1">
+        <img src="d.jpg" alt="Mẫu đèn 3">
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Liên hệ với chúng tôi</h2>
+    <p>HOTLINE: <a href="tel:0399157598">0399157598</a></p>
+    <a href="https://zalo.me/0399157598" class="button">Zalo</a>
+    <a href="https://www.facebook.com/share/1CMv2McF6Q/?mibextid=wwXIfr" class="button">Facebook</a>
+</section>
+
+<footer>
+    &copy; 2025 TueAn – Giữ mãi khoảnh khắc yêu thương
+</footer>
+
+</body>
+</html>
